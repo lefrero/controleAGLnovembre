@@ -3,4 +3,31 @@
   <groupId>controlenov</groupId>
   <artifactId>controlenov</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <!-- https://mvnrepository.com/artifact/org.mnode.ical4j/ical4j -->
+  <dependencies>
+	  <dependency>
+		    <groupId>org.mnode.ical4j</groupId>
+		    <artifactId>ical4j</artifactId>
+		    <version>3.1.0</version>
+		</dependency>
+		    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.4.2</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.4.2</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+	<groupId>org.junit.jupiter</groupId>
+	<artifactId>junit-jupiter-params</artifactId>
+	<version>5.7.0</version>
+	<scope>test</scope>
+</dependency>
+    
+  </dependencies>
 </project>
